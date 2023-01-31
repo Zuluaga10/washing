@@ -1,0 +1,17 @@
+.show-more {
+  display: inline-block; /* for inline elements e.g. span, strong, em etc */
+  text-overflow: ellipsis;
+  width: calc(80%); /* The trick is here! */
+}
+
+.card mb-3 {
+    max-width: 540px;
+}
+
+.card-color{
+    background-color: #2193b0;
+}
+
+.button-color{
+    background-color: #7f7fd5;
+}
